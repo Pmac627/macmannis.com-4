@@ -1,0 +1,39 @@
+# ---- Build output ----
+[Bb]in/
+[Oo]bj/
+
+# ---- Visual Studio / IDE ----
+.vs/
+*.user
+*.suo
+# .vscode/     # uncomment to keep VS Code workspace settings local
+# .idea/       # uncomment if anyone uses Rider
+
+# ---- Secrets & environment config ----
+# These currently hold LIVE SendGrid / reCAPTCHA keys. Keep them out of git.
+# The base appsettings.json stays tracked (no secrets in it).
+**/appsettings.Development.json
+**/appsettings.Production.json
+
+# ---- Machine-specific launch profile (local ports / env vars) ----
+**/Properties/launchSettings.json
+
+# ---- Test results & coverage ----
+[Tt]est[Rr]esults/
+*.trx
+*.coverage
+*.coveragexml
+
+# ---- Publish output ----
+publish/
+*.pubxml.user
+
+# ---- NuGet packages ----
+*.nupkg
+
+# ---- Diagnostics ----
+*.binlog
+
+# ---- OS cruft ----
+.DS_Store
+Thumbs.db
