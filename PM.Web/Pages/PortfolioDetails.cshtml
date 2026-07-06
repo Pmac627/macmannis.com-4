@@ -1,0 +1,115 @@
+@page "{slug}"
+@model PM.Web.Pages.PortfolioDetailsModel
+@{
+    Layout = null;
+    var project = Model.Project;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="~/css/fonts.css" />
+    <link rel="stylesheet" href="~/css/layout.css" />
+    <link rel="stylesheet" href="~/css/macmannisv4.css" />
+
+    <style type="text/css">
+        .portfolio-details {
+            padding: 40px 0;
+        }
+
+            .portfolio-details .portfolio-title {
+                font-size: 26px;
+                font-weight: 700;
+                margin-bottom: 20px;
+            }
+
+            .portfolio-details .portfolio-info {
+                padding-top: 45px;
+            }
+
+                .portfolio-details .portfolio-info h3 {
+                    font-size: 22px;
+                    font-weight: 400;
+                    margin-bottom: 20px;
+                }
+
+                .portfolio-details .portfolio-info ul {
+                    list-style: none;
+                    padding: 0;
+                    font-size: 15px;
+                }
+
+                    .portfolio-details .portfolio-info ul li + li {
+                        margin-top: 10px;
+                    }
+
+                .portfolio-details .portfolio-info p {
+                    font-size: 15px;
+                    padding: 15px 0 0 0;
+                }
+
+        @@media (max-width: 992px) {
+            .portfolio-details .portfolio-info {
+                padding-top: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section id="portfolio-details" class="portfolio-details">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h2 class="portfolio-title">@project.Title</h2>
+                        <div class="carousel portfolio-details-carousel" data-autoplay="6000">
+                            <div class="carousel-track">
+                                @foreach (var image in project.Images)
+                                {
+                                    <div class="carousel-slide">
+                                        <img src="@image.Uri" class="img-fluid" alt="@image.Alt" title="@image.Title" />
+                                    </div>
+                                }
+                            </div>
+                            <div class="carousel-dots"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 portfolio-info">
+                        <h3>Project information</h3>
+                        <ul>
+                            <li><strong>Category</strong>: @project.Category</li>
+                            <li><strong>Client</strong>: @project.Client</li>
+                            <li><strong>Project date</strong>: @project.Date</li>
+                            @if (!string.IsNullOrWhiteSpace(project.ProjectUri))
+                            {
+                                <li><strong>Project URL</strong>: <a href="@project.ProjectUri" target="_blank">@project.ProjectUri</a></li>
+                            }
+                        </ul>
+                        @foreach (var paragraph in project.Paragraphs)
+                        {
+                            <p>@paragraph</p>
+                        }
+                        @foreach (var tag in project.Tags)
+                        {
+                            @if (!string.IsNullOrWhiteSpace(tag.Color))
+                            {
+                                <span class="badge" style="font-weight:normal;color:#fff;background-color:@tag.Color"><i class="@tag.Icon"></i> @tag.Text</span>
+                            }
+                            else
+                            {
+                                <span class="badge badge-primary"><i class="@tag.Icon"></i> @tag.Text</span>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script type="text/javascript" src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>

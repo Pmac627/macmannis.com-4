@@ -4,9 +4,11 @@ Personal portfolio site for Pat MacMannis. Software Engineering. Done Right.
 
 ## Stack
 
-- ASP.NET Core (.NET 10), C#
-- Server-rendered Razor views
-- Static front-end assets (CSS, JavaScript, images) served from `wwwroot`
+- ASP.NET Core (.NET 10), C#, Razor Pages
+- Content-driven: all page content is read from `PM.Web/content/site.json`
+- Static front-end assets (CSS, JavaScript, images, self-hosted webfonts) served from `wwwroot`, no jQuery or third-party JS/CSS framework
+
+See [docs/](docs/index.md) for architecture, request flows, and decision records.
 
 ## Prerequisites
 
@@ -30,9 +32,12 @@ Browse to the address printed in the console (for example `https://localhost:619
 ```
 MacMannisV4.sln
 PM.Web/
-  Controllers/      Request handling
-  Views/            Razor views
-  ViewModels/       View models
-  wwwroot/          css, js, img, and third-party libraries
+  Pages/            Razor Pages (Index, PortfolioDetails/{slug}, Privacy, Shared/_Layout, Shared/Error)
+  Services/         IContentService / ContentService (loads and caches content/site.json)
+  Models/           Content records (Models/Content/) and ErrorModel
+  content/          site.json, the single source of truth for all page content
+  wwwroot/          css, js, img, self-hosted webfonts
   appsettings.json  Base configuration
+PM.Web.Tests/       xUnit + FakeItEasy tests for ContentService
+docs/               Architecture, flows, and decision records (see docs/index.md)
 ```

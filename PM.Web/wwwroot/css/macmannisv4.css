@@ -165,6 +165,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     overflow: hidden;
     transition: 0.3s;
+    text-decoration: none;
 }
 
     .nav-menu a i {
@@ -262,6 +263,11 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     left: 0;
     right: 0;
+}
+
+#hero .container {
+    position: relative;
+    z-index: 1;
 }
 
 #hero h1 {
@@ -434,7 +440,7 @@ section {
     }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
     height: 50px;
@@ -479,11 +485,15 @@ section {
 }
 
 .resume .resume-item {
-    padding: 0 0 20px 20px;
+    padding: 0 0 0 20px;
     margin-top: -2px;
     border-left: 2px solid #355e3b;
     position: relative;
 }
+
+    .resume .resume-item.resume-item-experience {
+        padding-bottom: 20px;
+    }
 
     .resume .resume-item h4 {
         line-height: 18px;
@@ -512,7 +522,7 @@ section {
             padding-bottom: 10px;
         }
 
-    .resume .resume-item:last-child {
+    .resume .resume-item.resume-item-experience:last-child {
         padding-bottom: 0;
     }
 
@@ -1106,3 +1116,105 @@ section {
     #footer .credits {
         font-size: 13px;
     }
+
+/*--------------------------------------------------------------
+# Scroll reveal (replaces AOS)
+--------------------------------------------------------------*/
+[data-aos] {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+    [data-aos].aos-animate {
+        opacity: 1;
+        transform: none;
+    }
+
+    [data-aos="zoom-in"] {
+        transform: scale(0.9);
+    }
+
+        [data-aos="zoom-in"].aos-animate {
+            transform: none;
+        }
+
+@media (prefers-reduced-motion: reduce) {
+    [data-aos] {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+}
+
+/*--------------------------------------------------------------
+# Lightbox (replaces venobox)
+--------------------------------------------------------------*/
+.lightbox-dialog {
+    border: none;
+    padding: 0;
+    background: transparent;
+    max-width: 90vw;
+    max-height: 90vh;
+}
+
+    .lightbox-dialog::backdrop {
+        background: rgba(0, 0, 0, 0.85);
+    }
+
+    .lightbox-dialog img {
+        display: block;
+        max-width: 90vw;
+        max-height: 90vh;
+    }
+
+    .lightbox-dialog .lightbox-close {
+        position: fixed;
+        top: 20px;
+        right: 30px;
+        font-size: 32px;
+        line-height: 1;
+        color: #fff;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+/*--------------------------------------------------------------
+# Carousel (replaces owl.carousel)
+--------------------------------------------------------------*/
+.carousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.carousel-dots {
+    margin-top: 5px;
+    text-align: center;
+}
+
+    .carousel-dots button {
+        display: inline-block;
+        margin: 0 5px;
+        width: 12px;
+        height: 12px;
+        padding: 0;
+        border: none;
+        border-radius: 50%;
+        background-color: #ddd;
+        cursor: pointer;
+    }
+
+        .carousel-dots button.active {
+            background-color: #355e3b;
+        }

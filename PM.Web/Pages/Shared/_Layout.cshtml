@@ -1,0 +1,97 @@
+@inject PM.Web.Services.IContentService ContentService
+@{
+    var hero = ContentService.GetContent().Hero;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>macmannis.com | Software Engineering. Done Right.@(!string.IsNullOrWhiteSpace(ViewData["Title"]?.ToString()) ? $" | {ViewData["Title"]}" : string.Empty)</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <link rel="icon" href="~/img/favicon.png" type="image/png" />
+    <link rel="shortcut icon" href="~/img/favicon.png" type="image/png" />
+    <link rel="apple-touch-icon" href="~/img/macmannicon-57.jpg" sizes="57x57" />
+    <link rel="apple-touch-icon" href="~/img/macmannicon-72.jpg" sizes="72x72" />
+    <link rel="apple-touch-icon" href="~/img/macmannicon-114.jpg" sizes="114x114" />
+    <link rel="apple-touch-icon" href="~/img/macmannicon-144.jpg" sizes="144x144" />
+    <link rel="image_src" href="~/img/macmannimage.jpg" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="~/css/fonts.css" />
+    <link rel="stylesheet" href="~/css/layout.css" />
+    <link rel="stylesheet" href="~/css/macmannisv4.css" />
+
+    <script>
+        !function (g, s, q, r, d) {
+            r = g[r] = g[r] || function () {
+                (r.q = r.q || []).push(
+                    arguments)
+            }; d = s.createElement(q); q = s.getElementsByTagName(q)[0];
+            d.src = '//d1l6p2sc9645hc.cloudfront.net/tracker.js'; q.parentNode.
+                insertBefore(d, q)
+        }(window, document, 'script', '_gs');
+
+        _gs('GSN-618152-H');
+    </script>
+</head>
+<body>
+    <button type="button" class="mobile-nav-toggle d-xl-none">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <header id="header" class="d-flex flex-column justify-content-center">
+        <nav class="nav-menu">
+            <ul>
+                <li class="active"><a href="#hero"><i class="fas fa-home"></i> <span>Home</span></a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> <span>About</span></a></li>
+                <li><a href="#resume"><i class="fas fa-scroll"></i> <span>Resume</span></a></li>
+                <li><a href="#portfolio"><i class="fas fa-book"></i> <span>Portfolio</span></a></li>
+                <li><a href="#services"><i class="fas fa-server"></i> <span>Services</span></a></li>
+                <li><a href="#testimonials"><i class="fas fa-comments"></i> <span>Testimonials</span></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="d-flex flex-column justify-content-center">
+        <div class="container" data-aos="zoom-in" data-aos-delay="100">
+            <h1>@hero.Name</h1>
+            <p>
+                I am
+                <span class="typed" data-typed-items="@string.Join(",", hero.Roles)"></span>
+            </p>
+            <div class="social-links">
+                <a class="linkedin" href="https://www.linkedin.com/in/patmacmannis" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a class="github" href="https://github.com/pmac627" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+    <main id="main">
+        @RenderBody()
+    </main>
+
+    <footer id="footer">
+        <div class="container">
+            <h3>@hero.Name</h3>
+            <p>Software Engineering. Done Right.</p>
+            <div class="social-links">
+                <a class="linkedin" href="https://www.linkedin.com/in/patmacmannis/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a class="github" href="https://github.com/pmac627" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <div class="copyright">
+                &copy; @DateTime.Now.Year macmannis.com
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="back-to-top"><i class="fas fa-chevron-up"></i></a>
+    <div id="preloader"></div>
+
+    <script type="text/javascript" src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false).ConfigureAwait(false)
+</body>
+</html>
