@@ -86,7 +86,7 @@
                             <li><strong>Project date</strong>: @project.Date</li>
                             @if (!string.IsNullOrWhiteSpace(project.ProjectUri))
                             {
-                                <li><strong>Project URL</strong>: <a href="@project.ProjectUri" target="_blank">@project.ProjectUri</a></li>
+                                <li><strong>Project URL</strong>: <a href="@project.ProjectUri" target="_blank" rel="noopener noreferrer">@project.ProjectUri</a></li>
                             }
                         </ul>
                         @foreach (var paragraph in project.Paragraphs)

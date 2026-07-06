@@ -1,6 +1,7 @@
 @inject PM.Web.Services.IContentService ContentService
 @{
     var hero = ContentService.GetContent().Hero;
+    var cspNonce = Context.Items["CspNonce"] as string ?? string.Empty;
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -25,13 +26,13 @@
     <link rel="stylesheet" href="~/css/layout.css" />
     <link rel="stylesheet" href="~/css/macmannisv4.css" />
 
-    <script>
+    <script nonce="@cspNonce">
         !function (g, s, q, r, d) {
             r = g[r] = g[r] || function () {
                 (r.q = r.q || []).push(
                     arguments)
             }; d = s.createElement(q); q = s.getElementsByTagName(q)[0];
-            d.src = '//d1l6p2sc9645hc.cloudfront.net/tracker.js'; q.parentNode.
+            d.src = 'https://d1l6p2sc9645hc.cloudfront.net/tracker.js'; q.parentNode.
                 insertBefore(d, q)
         }(window, document, 'script', '_gs');
 
@@ -64,8 +65,8 @@
                 <span class="typed" data-typed-items="@string.Join(",", hero.Roles)"></span>
             </p>
             <div class="social-links">
-                <a class="linkedin" href="https://www.linkedin.com/in/patmacmannis" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a class="github" href="https://github.com/pmac627" target="_blank"><i class="fab fa-github"></i></a>
+                <a class="linkedin" href="https://www.linkedin.com/in/patmacmannis" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                <a class="github" href="https://github.com/pmac627" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
             </div>
         </div>
     </section>
@@ -78,8 +79,8 @@
             <h3>@hero.Name</h3>
             <p>Software Engineering. Done Right.</p>
             <div class="social-links">
-                <a class="linkedin" href="https://www.linkedin.com/in/patmacmannis/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a class="github" href="https://github.com/pmac627" target="_blank"><i class="fab fa-github"></i></a>
+                <a class="linkedin" href="https://www.linkedin.com/in/patmacmannis/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                <a class="github" href="https://github.com/pmac627" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
             </div>
             <div class="copyright">
                 &copy; @DateTime.Now.Year macmannis.com
