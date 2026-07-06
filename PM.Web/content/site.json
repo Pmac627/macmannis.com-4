@@ -1,0 +1,314 @@
+{
+  "hero": {
+    "name": "Pat MacMannis",
+    "roles": ["a Team Lead", "an Engineer", "a Consultant", "an Entrepreneur", "a People Leader"]
+  },
+  "about": {
+    "title": "Team Lead & Software Engineer",
+    "paragraphs": [
+      "While I have experience in a variety of programming languages, methodologies and techniques, my primary focus is with Microsoft technologies. I hold a number of active certifications issued by Microsoft."
+    ],
+    "certifications": [
+      "Microsoft Certified Professional (F624-0566)",
+      "Microsoft Specialist: Programming in C# (F624-0568)",
+      "Microsoft Certified Solutions Associate: Web Applications (F841-3283) * Charter Member",
+      "Microsoft Certified Solutions Developer: App Builder (F981-4744)",
+      "Microsoft Certified Solutions Developer: Web Applications (F981-4743)"
+    ],
+    "startYear": 2008
+  },
+  "facts": [
+    { "icon": "fas fa-building", "value": 60, "label": "Unique Clients", "durationSeconds": 2 },
+    { "icon": "fas fa-user", "value": 125, "label": "Engineers Led", "durationSeconds": 2 },
+    { "icon": "fas fa-laptop-code", "value": 15000, "label": "Consulting Hours", "durationSeconds": 4 }
+  ],
+  "skills": [
+    { "name": "HTML / XHTML / XML", "icon": "fab fa-html5", "startYear": 2008 },
+    { "name": "CSS", "icon": "fab fa-css3-alt", "startYear": 2008 },
+    { "name": "JavaScript / jQuery", "icon": "fab fa-js-square", "startYear": 2008 },
+    { "name": "Source Control / Git / TFS", "icon": "fab fa-git-alt", "startYear": 2008 },
+    { "name": "PHP", "icon": "fab fa-php", "startYear": 2008 },
+    { "name": "C# / VB.NET / C#.NET * Core & Framework", "icon": "fab fa-microsoft", "startYear": 2010 },
+    { "name": "SQL / T-SQL / MySQL", "icon": "fas fa-database", "startYear": 2010 },
+    { "name": "Azure", "icon": "fas fa-cloud", "startYear": 2014 },
+    { "name": "Project Lead / Jira / Azure DevOps", "icon": "fab fa-jira", "startYear": 2014 },
+    { "name": "AWS", "icon": "fab fa-aws", "startYear": 2017 },
+    { "name": "NoSQL / DynamoDB / CosmosDB", "icon": "fas fa-project-diagram", "startYear": 2017 },
+    { "name": "Docker", "icon": "fab fa-docker", "startYear": 2017 }
+  ],
+  "resume": {
+    "summary": "Experienced leader and software engineer with over {years} years experience.",
+    "speakingEngagements": {
+      "description": "Three-time guest speaker at Saint Vincent College:",
+      "bullets": [
+        "Spring 2013 - \"What's New with HTML5?\"",
+        "Fall 2018 - \"Object Oriented Programming\"",
+        "Fall 2019 - \"Best Programming Practices\""
+      ]
+    },
+    "education": {
+      "major": "Bachelor of Arts - History",
+      "minorOrCertificate": "Certificate in Computer & Information Sciences",
+      "period": "2006 - 2010",
+      "location": "Saint Vincent College, Latrobe, PA"
+    },
+    "certifications": [],
+    "experience": [
+      {
+        "title": "Engineering Lead of the Loyalty and Offers Product Lines",
+        "period": "2018 - Present",
+        "org": "SessionM, A Mastercard Company",
+        "location": "Pittsburgh, PA",
+        "bullets": [
+          "Engineering Lead of the Loyalty and Offers Product Lines from Feb 2021 to present. Senior and Lead Software Engineer prior.",
+          "Inherited a team of 8 direct reports and maintained the lowest team turnover and hired 3 engineers.",
+          "Assumed ownership for multiple key domains that power the backbone of SessionM's infrastructure.",
+          "Architected multiple components involving security and performance to ensure TPS requirements were met.",
+          "Acted as business and client facing representative of the engineering team to reduce scope creep and keep multiple feature tracks on schedule.",
+          "Performed code reviews on proposed solutions and provided thoughtful and constructive feedback for engineers of all skill levels."
+        ]
+      },
+      {
+        "title": "Owner / Software Engineer",
+        "period": "2008 - Present",
+        "org": "tuple.pro",
+        "location": "Greensburg, PA",
+        "bullets": [
+          "Designed, developed, deployed and maintained multiple websites and applications for various clients.",
+          "Provided dynamic solutions for clients that met their needs both financially and functionally, including custom enterprise applications.",
+          "Created strong, long-term relationships with clients through clear communication and quick response times.",
+          "Developed a basic PHP MVC framework for small sites and a robust multi-tenant .NET CMS for larger projects.",
+          "Met with clients to understand their challenges and collaborate on planning a solution to fit their needs.",
+          "Performed deep application security audits and designed fixes to meet HIPAA and federal regulations.",
+          "Key clients include Kroll, Atlanta Falcons, Atlanta United FC, Mercedes-Benz Stadium, UPMC, Florida Healthy Kids and InSeeGo."
+        ]
+      },
+      {
+        "title": "Lead Software Engineer",
+        "period": "2016 - 2018",
+        "org": "Plus Consulting, Inc.",
+        "location": "Pittsburgh, PA",
+        "bullets": [
+          "Directly hired and managed 15 US-based engineers and QA team members.",
+          "Worked with engineers to improve continuous education practices and initiatives for a career-focused culture.",
+          "Performed code reviews on proposed solutions and provided thoughtful and constructive feedback.",
+          "Executed DevOps tasks for the entire team and streamlined branch management.",
+          "Administered the technical phone screen and code test for all prospective engineers.",
+          "Committed hundreds of fixes and features to codebases that reduced reoccurring bugs in the application.",
+          "Created a strong working relationship with the clients by communicating clearly and explaining technical concepts effectively to non-technical individuals."
+        ]
+      },
+      {
+        "title": "Senior Software Engineer",
+        "period": "2015 - 2016",
+        "org": "Black Box Network Services",
+        "location": "Lawrence, PA",
+        "bullets": [
+          "Vocal contributor in the design, development, testing and support of a new e-commerce site.",
+          "Design and implemented advanced real time search with another engineer using SOLR.",
+          "Coordinated team efforts with JIRA and provided additional organization via business requirements gathering.",
+          "Accelerated timeline of legacy features and debugging by providing in-depth analysis and completing groups of tickets in target areas.",
+          "Successfully completed legacy backlog months ahead of schedule with a clear and focused approach to development and planning."
+        ]
+      },
+      {
+        "title": "Software Engineer",
+        "period": "2013 - 2015",
+        "org": "ZAP Solutions, Inc.",
+        "location": "Pittsburgh, PA",
+        "bullets": [
+          "Quick learner with new technologies by researching and creating proof of concepts to test new features.",
+          "Created dozens of marketable features and incorporated them into the primary template to redistribute.",
+          "Worked with other departments to improve communication and cooperation to streamline development time.",
+          "Professional and timely assistance to clients on conference calls and live debugging sessions.",
+          "Successfully bridged the gap between non-technical clients and the development team."
+        ]
+      },
+      {
+        "title": "Full Stack Developer",
+        "period": "2012 - 2013",
+        "org": "Insight Marketing Solutions, Inc.",
+        "location": "Pittsburgh, PA",
+        "bullets": [
+          "Provided clients with up-to-date technologies and techniques to reach their desired result quickly and effectively.",
+          "Promoted proactive design and development rather than reactive development.",
+          "Contributed heavily to the redesign and development of the SaaS wellness platform.",
+          "Created entire websites from Photoshop files provided by clients.",
+          "Designed, developed, deployed and maintained multiple websites for various clients and in-house applications."
+        ]
+      }
+    ]
+  },
+  "services": [
+    {
+      "icon": "fas fa-code",
+      "colorClass": "iconbox-blue",
+      "title": "Web Development",
+      "description": "Create a full stack solution for your web-based needs! I write all front, back and database code custom to your application."
+    },
+    {
+      "icon": "fas fa-mobile-alt",
+      "colorClass": "iconbox-orange",
+      "title": "Responsive Design",
+      "description": "Make sure your web application looks great on any device! I optimize all projects to take full advantage of the latest RWD techniques."
+    },
+    {
+      "icon": "fas fa-tools",
+      "colorClass": "iconbox-pink",
+      "title": "Application Upgrade",
+      "description": "Sometimes old faithful needs a tune-up! I will take on your outdated application and bring it up to spec with the latest technologies."
+    },
+    {
+      "icon": "fas fa-database",
+      "colorClass": "iconbox-yellow",
+      "title": "Database Development",
+      "description": "The most valuable resource for most businesses is information! I can create custom databases and reports to get you the data you need."
+    }
+  ],
+  "portfolio": [
+    {
+      "slug": "2to1",
+      "title": "Metragenix 2-to-1 Protein Bars",
+      "category": "Web Development",
+      "client": "Metragenix",
+      "date": "December 2012",
+      "projectUri": null,
+      "paragraphs": [
+        "Metragenix 2-to-1 Protein Bars (MG) offers a line of high-quality protein bars that are specially formulated to have a solid ration of protein to net carbs. I was an employee of IMS during this project.",
+        "MG provided the design via PSD and basic descriptions of how the UI should function. I provided a clear explanation of the process and how long each step would take to complete. The development time was approximately 120 hours which included coding, QA, UAT and deployment.",
+        "2to1proteinbars.com is a simple standards-compliant website created with HTML5, CSS3, JavaScript, jQuery and Nivo Slider (a jQuery Plugin). The back end is powered by PHP 5. The site is also mobile-friendly and the products are dynamically displayed without a database."
+      ],
+      "thumbnail": { "uri": "/img/portfolio/2-to-1.png", "alt": "Metragenix 2-to-1 Protein Bars", "title": "Metragenix 2-to-1 Protein Bars" },
+      "images": [
+        { "uri": "/img/portfolio/2-to-1-preview.png", "alt": "", "title": "" }
+      ],
+      "tags": [
+        { "text": "PHP", "icon": "fab fa-php", "color": "#355e3b" },
+        { "text": "HTML5", "icon": "fab fa-html5", "color": "#355e3b" },
+        { "text": "CSS", "icon": "fab fa-css3-alt", "color": "#355e3b" },
+        { "text": "JS", "icon": "fab fa-js-square", "color": "#355e3b" },
+        { "text": "JQuery", "icon": "fab fa-js-square", "color": "#355e3b" }
+      ]
+    },
+    {
+      "slug": "tp",
+      "title": "TheraPartners",
+      "category": "Web Development",
+      "client": "TheraPartners, LLC",
+      "date": "March 2017",
+      "projectUri": null,
+      "paragraphs": [
+        "I created a portfolio website to showcase the unique TheraPartners service for children. The site was created with ASP.NET MVC 5, MSSQL and Bootstrap 3. The site features a list of their services as well as a contact form."
+      ],
+      "thumbnail": { "uri": "/img/portfolio/therapartners.png", "alt": "TheraPartners", "title": "TheraPartners" },
+      "images": [
+        { "uri": "/img/portfolio/therapartners-preview.png", "alt": "", "title": "" }
+      ],
+      "tags": [
+        { "text": "C#.NET", "icon": "fab fa-microsoft", "color": "#355e3b" },
+        { "text": "SQL", "icon": "fas fa-database", "color": "#355e3b" },
+        { "text": "MVC5", "icon": "fab fa-microsoft", "color": "#355e3b" },
+        { "text": "Bootstrap", "icon": "fab fa-bootstrap", "color": "#355e3b" },
+        { "text": "CSS", "icon": "fab fa-css3-alt", "color": "#355e3b" },
+        { "text": "JS", "icon": "fab fa-js-square", "color": "#355e3b" },
+        { "text": "HTML5", "icon": "fab fa-html5", "color": "#355e3b" },
+        { "text": "JQuery", "icon": "fab fa-js-square", "color": "#355e3b" }
+      ]
+    },
+    {
+      "slug": "ss",
+      "title": "Sourcing Services",
+      "category": "Web Development",
+      "client": "Sourcing Services, LLC",
+      "date": "December 2012",
+      "projectUri": null,
+      "paragraphs": [],
+      "thumbnail": { "uri": "/img/portfolio/sourcing-services.png", "alt": "Sourcing Services", "title": "Sourcing Services" },
+      "images": [
+        { "uri": "/img/portfolio/sourcing-services-preview.png", "alt": "", "title": "" }
+      ],
+      "tags": [
+        { "text": "PHP", "icon": "fab fa-php", "color": "#355e3b" },
+        { "text": "HTML5", "icon": "fab fa-html5", "color": "#355e3b" },
+        { "text": "CSS", "icon": "fab fa-css3-alt", "color": "#355e3b" },
+        { "text": "JS", "icon": "fab fa-js-square", "color": "#355e3b" },
+        { "text": "JQuery", "icon": "fab fa-js-square", "color": "#355e3b" }
+      ]
+    },
+    {
+      "slug": "csem",
+      "title": "Center for Safety & Environmental Management",
+      "category": "Application Upgrade",
+      "client": "Center for Safety & Environmental Management",
+      "date": "July 2014",
+      "projectUri": null,
+      "paragraphs": [],
+      "thumbnail": { "uri": "/img/portfolio/csem.png", "alt": "Center for Safety & Environmental Management", "title": "Center for Safety & Environmental Management" },
+      "images": [
+        { "uri": "/img/portfolio/csem-preview.png", "alt": "", "title": "" }
+      ],
+      "tags": [
+        { "text": "PHP", "icon": "fab fa-php", "color": "#355e3b" },
+        { "text": "HTML5", "icon": "fab fa-html5", "color": "#355e3b" },
+        { "text": "CSS", "icon": "fab fa-css3-alt", "color": "#355e3b" },
+        { "text": "JS", "icon": "fab fa-js-square", "color": "#355e3b" },
+        { "text": "JQuery", "icon": "fab fa-js-square", "color": "#355e3b" }
+      ]
+    },
+    {
+      "slug": "omh",
+      "title": "Our Mission House Publishing",
+      "category": "Web Development",
+      "client": "Sisters of Mary Immaculate",
+      "date": "August 2009",
+      "projectUri": "https://www.omhsmi.org/",
+      "paragraphs": [
+        "Our Mission House Publishing (OMH) is the entity that the Sisters of Mary Immaculate (SMI) offer their line of Catholic children's literature and products.",
+        "I met with the organization representatives that outlined what they were looking for. I provided a few mock ups of potential designs that included the white and light blue design they chose, which is based off of the habit that they typically wear. I also provided a clear explanation of the process and how long each step would take to complete. The development time was approximately 80 hours which included coding, QA, UAT and deployment.",
+        "omhsmi.org is a simple standards-compliant website created with HTML5, CSS3 and Bootstrap 3. The back end is powered by ASP.NET MVC 5 and MSSQL. The site is mobile-friendly and utilizes metadata (http://schema.org). The site has seen two major updates since it was originally created in 2009 with PHP 5, HTML5, CSS3, JavaScript and MySQL. In 2013, the vanilla CSS and JavaScript was replaced with Bootstrap 3. In 2017, the back end was rebuilt using ASP.NET MVC 5 and MSSQL."
+      ],
+      "thumbnail": { "uri": "/img/portfolio/omhsmi.png", "alt": "Our Mission House Publishing", "title": "Our Mission House Publishing" },
+      "images": [
+        { "uri": "/img/portfolio/omhsmi-preview.png", "alt": "", "title": "" }
+      ],
+      "tags": [
+        { "text": "C#.NET", "icon": "fab fa-microsoft", "color": "#355e3b" },
+        { "text": "SQL", "icon": "fas fa-database", "color": "#355e3b" },
+        { "text": "MVC5", "icon": "fab fa-microsoft", "color": "#355e3b" },
+        { "text": "Bootstrap", "icon": "fab fa-bootstrap", "color": "#355e3b" },
+        { "text": "CSS", "icon": "fab fa-css3-alt", "color": "#355e3b" },
+        { "text": "JS", "icon": "fab fa-js-square", "color": "#355e3b" },
+        { "text": "HTML5", "icon": "fab fa-html5", "color": "#355e3b" }
+      ]
+    },
+    {
+      "slug": "is",
+      "title": "Industrial Scientific",
+      "category": "Database Development",
+      "client": "Industrial Scientific Corporation",
+      "date": "May 2015",
+      "projectUri": null,
+      "paragraphs": [],
+      "thumbnail": { "uri": "/img/portfolio/isc.png", "alt": "Industrial Scientific", "title": "Industrial Scientific" },
+      "images": [
+        { "uri": "/img/portfolio/isc-preview.png", "alt": "", "title": "" }
+      ],
+      "tags": [
+        { "text": "VBA", "icon": "fab fa-microsoft", "color": "#355e3b" },
+        { "text": "SQL", "icon": "fas fa-database", "color": "#355e3b" }
+      ]
+    }
+  ],
+  "testimonials": [
+    { "name": "Derek J.", "role": "Chief Technology Officer", "quote": "Pat is not only an incredibly talented full stack software engineer, he is also an incredibly talented, and well respected, engineering manager and leader. He possesses great communication skills and wields them well; beyond the internal engineering teams (where he excels), he really shines working with organizations outside of engineering, where he is able to logically break down and clearly articular problems and solutions and set teams up for success. I have had the good fortune and pleasure of working with Pat for over 5 years and 2 acquisitions and have seen his rare talent and experience shaped (I should say forged) in a SaaS startup of high scale, high stakes, high pressure and high growth, working with the biggest brands on the planet, and know he would be valued very highly in any software enterprise." },
+    { "name": "Tom R.", "role": "Director of Data Services & Engineering", "quote": "Patrick is not your typical engineer. The unsavvy among us may think his aversion to complexity means he is unskilled or uninformed. This cannot be further from the truth. Any engineer can take a complex problem and solve it with a complex solution. Patrick tries instead to solve the most complex problems with the simplest solutions, this is hard, combine his practical nature, and excellent communication skills and complete absence of ego makes him one of the most effective engineers and engineering leaders I have had the pleasure of working with." },
+    { "name": "Joe R.", "role": "Principal Architect", "quote": "I worked with Pat for nearly two years on a Software Development contract. Pat was an excellent teammate and was the project lead. He was very easy to work with, a very knowledgeable developer and very responsive in clearing out any blockers for our team. Pat was extremely helpful in resolving any conflicts arising from client requests and resource allocation. He was willing to help with any of the concerns of anyone on the team. Good dude all around!! I would definitely work with him in any capacity again in the future and hope our paths will cross somewhere down the road." },
+    { "name": "Tyler M.", "role": "Software Engineering Team Lead", "quote": "I had the privilege of working under Patrick as my tech lead in my first full time developer position after graduation. As my tech lead, Patrick was responsible for mentoring, leading, and coordinating the developers on our team as well keeping up with his own development workload. Patrick was competently able to juggle several different responsibilities. Patrick was always able to make time for more junior developers such as myself with whatever technical or interpersonal questions we had." },
+    { "name": "Chris V.", "role": "IT Program Manager (PMP, PMI-ACP, CSM)", "quote": "I had the opportunity to work with Patrick on a large scale software project. Patrick demonstrated excellent leadership capabilities and drove all assigned tasks to completion. His ability to also resolve conflicts and issues in a timely manner was excellent. I would certainly recommend Patrick and I hope to work with him again in the future." },
+    { "name": "Alec H.", "role": "Senior Solutions Architect", "quote": "Patrick is an excellent leader for our team. He possesses a rare mix of technical ability and strong business acumen. When issues or roadblocks have come up on projects I've worked on with Patrick, he has been our go to guy for getting everyone on the same page and getting the problems solved. He has consistently gone above and beyond for our customers, delivering timely solutions and meeting tight deadlines that have allowed their businesses to continue operating smoothly. Highly recommended!" },
+    { "name": "Louetta O.", "role": "Web Development Manager", "quote": "Patrick was a key member of our development team. He was willing to do what it takes to deliver projects on time and within budget. I would gladly work with him again if given the opportunity." },
+    { "name": "Mandee E.", "role": "Assistant Director, Digital Strategy", "quote": "Pat is extremely talented and always had an eye on the details which made him an asset for QA in our web projects. His energy and passion for web development helped the company provide a best-in-class web experience for our clients in a quick professional fashion. He was proactive in helping me become a much better front-end web coder, and was always available after work hours for additional help in learning best practices in SEO & responsive web design. With these learnings I was able to work my way up to a front-end development position at Guardian Protection. I have a great personal & professional respect for Pat and believe he was able to demonstrate that he was an ambitious leader and an amazing team player while working at the company." },
+    { "name": "Gregory P.", "role": "Director of Engineering", "quote": "Patrick is a hardworking and focused individual who does what it takes to complete the required work in a timely manner while maintaining his attention to detail. He gives all the required information needed to make working with him easy and gratifying." },
+    { "name": "Robert C.", "role": "Independent Photography Professional", "quote": "Pat is a problem solver dedicated to the client. His whatever it takes attitude is rare today. I have his number on speed dial. So should anyone needing his services." }
+  ]
+}
