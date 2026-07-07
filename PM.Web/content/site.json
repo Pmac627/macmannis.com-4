@@ -1,43 +1,41 @@
 {
   "hero": {
     "name": "Pat MacMannis",
-    "roles": ["a Team Lead", "an Engineer", "a Consultant", "an Entrepreneur", "a People Leader"]
+    "roles": ["a Team Lead", "an Engineer", "a Consultant", "an Entrepreneur", "a People Leader", "an Architect", "an Agentic AI Advocate"]
   },
   "about": {
-    "title": "Team Lead & Software Engineer",
+    "title": "Software Engineering Executive & Technical Leader",
     "paragraphs": [
-      "While I have experience in a variety of programming languages, methodologies and techniques, my primary focus is with Microsoft technologies. I hold a number of active certifications issued by Microsoft."
+      "I lead software engineering teams that build high-scale financial, loyalty, commerce and enterprise platforms. My background combines hands-on architecture, people leadership, payments, compliance, Microsoft technologies and practical agentic AI adoption."
     ],
     "certifications": [
       "Microsoft Certified Professional (F624-0566)",
       "Microsoft Specialist: Programming in C# (F624-0568)",
       "Microsoft Certified Solutions Associate: Web Applications (F841-3283) * Charter Member",
       "Microsoft Certified Solutions Developer: App Builder (F981-4744)",
-      "Microsoft Certified Solutions Developer: Web Applications (F981-4743)"
+      "Microsoft Certified Solutions Developer: Web Applications (F981-4743)",
+      "Microsoft Certified: Azure Fundamentals (DC837352041D6795)"
     ],
     "startYear": 2008
   },
   "facts": [
+    { "icon": "fas fa-handshake", "value": 2, "label": "Acquisitions Enabled", "durationSeconds": 1 },
     { "icon": "fas fa-building", "value": 60, "label": "Unique Clients", "durationSeconds": 2 },
     { "icon": "fas fa-user", "value": 125, "label": "Engineers Led", "durationSeconds": 2 },
     { "icon": "fas fa-laptop-code", "value": 15000, "label": "Consulting Hours", "durationSeconds": 4 }
   ],
   "skills": [
-    { "name": "HTML / XHTML / XML", "icon": "fab fa-html5", "startYear": 2008 },
-    { "name": "CSS", "icon": "fab fa-css3-alt", "startYear": 2008 },
-    { "name": "JavaScript / jQuery", "icon": "fab fa-js-square", "startYear": 2008 },
-    { "name": "Source Control / Git / TFS", "icon": "fab fa-git-alt", "startYear": 2008 },
-    { "name": "PHP", "icon": "fab fa-php", "startYear": 2008 },
-    { "name": "C# / VB.NET / C#.NET * Core & Framework", "icon": "fab fa-microsoft", "startYear": 2010 },
-    { "name": "SQL / T-SQL / MySQL", "icon": "fas fa-database", "startYear": 2010 },
-    { "name": "Azure", "icon": "fas fa-cloud", "startYear": 2014 },
-    { "name": "Project Lead / Jira / Azure DevOps", "icon": "fab fa-jira", "startYear": 2014 },
-    { "name": "AWS", "icon": "fab fa-aws", "startYear": 2017 },
-    { "name": "NoSQL / DynamoDB / CosmosDB", "icon": "fas fa-project-diagram", "startYear": 2017 },
-    { "name": "Docker", "icon": "fab fa-docker", "startYear": 2017 }
+    { "name": "JavaScript / Frontend", "icon": "fab fa-js-square", "startYear": 2008 },
+    { "name": "SQL / NoSQL", "icon": "fas fa-database", "startYear": 2010 },
+    { "name": ".NET / C#", "icon": "fab fa-microsoft", "startYear": 2010 },
+    { "name": "Engineering Leadership", "icon": "fas fa-users", "startYear": 2014 },
+    { "name": "Azure / AWS", "icon": "fas fa-cloud", "startYear": 2014 },
+    { "name": "Docker / DevOps", "icon": "fab fa-docker", "startYear": 2014 },
+    { "name": "Payments / PCI DSS", "icon": "fas fa-credit-card", "startYear": 2022 },
+    { "name": "Agentic AI / MCP", "icon": "fas fa-robot", "startYear": 2023 }
   ],
   "resume": {
-    "summary": "Experienced leader and software engineer with over {years} years experience.",
+    "summary": "Software engineering leader with over {years} years of experience building award-winning platforms, leading engineering teams and modernizing systems across finance, loyalty, payments, healthcare and enterprise software.",
     "speakingEngagements": {
       "description": "Three-time guest speaker at Saint Vincent College:",
       "bullets": [
@@ -55,86 +53,134 @@
     "certifications": [],
     "experience": [
       {
-        "title": "Engineering Lead of the Loyalty and Offers Product Lines",
-        "period": "2018 - Present",
-        "org": "SessionM, A Mastercard Company",
-        "location": "Pittsburgh, PA",
+        "title": "Senior Software Engineering Manager",
+        "period": "January 2025 - Present",
+        "org": "Green Dot Corporation",
+        "location": "Greensburg, PA",
         "bullets": [
-          "Engineering Lead of the Loyalty and Offers Product Lines from Feb 2021 to present. Senior and Lead Software Engineer prior.",
-          "Inherited a team of 8 direct reports and maintained the lowest team turnover and hired 3 engineers.",
-          "Assumed ownership for multiple key domains that power the backbone of SessionM's infrastructure.",
-          "Architected multiple components involving security and performance to ensure TPS requirements were met.",
-          "Acted as business and client facing representative of the engineering team to reduce scope creep and keep multiple feature tracks on schedule.",
-          "Performed code reviews on proposed solutions and provided thoughtful and constructive feedback for engineers of all skill levels."
+          "Manage a team of 10 engineers responsible for rebuilding and migrating a core mobile finance and banking platform.",
+          "Help guide architecture for a platform with more than 40 million active users, more than $7 billion in monthly activity and multiple third-party integrations.",
+          "Introduce and refine agentic AI development techniques for the engineering team.",
+          "Assume ownership for modernization and improvement of legacy platform capabilities.",
+          "Act as a business and client-facing representative of engineering while shielding teams from distractions and removing impediments."
         ]
       },
       {
-        "title": "Owner / Software Engineer",
-        "period": "2008 - Present",
+        "title": "Lead Architect / Software Engineer / Co-Founder",
+        "period": "September 2020 - Present",
+        "org": "Dream Invent Inspire, Inc.",
+        "location": "Pittsburgh, PA",
+        "bullets": [
+          "Architected and developed Dreamspire, a collaboration design tool built around PlantUML.",
+          "Architected, developed, released and maintain dii.storage, a dynamic pseudo-ORM.",
+          "Architected, developed, released and maintain dii.storage.cosmos, a Cosmos DB extension for dii.storage.",
+          "Design and implement new technologies and techniques, including agentic AI workflows.",
+          "Participate in board meetings, fundraising, software design, database design and hardware and software development."
+        ]
+      },
+      {
+        "title": "Architect & Lead Software Engineer / Founder",
+        "period": "May 2008 - Present",
         "org": "tuple.pro",
         "location": "Greensburg, PA",
         "bullets": [
-          "Designed, developed, deployed and maintained multiple websites and applications for various clients.",
-          "Provided dynamic solutions for clients that met their needs both financially and functionally, including custom enterprise applications.",
-          "Created strong, long-term relationships with clients through clear communication and quick response times.",
+          "Designed and created multiple MCP servers for client applications.",
+          "Optimized customer value by using agentic AI techniques to improve delivery efficiency.",
+          "Architected, developed, deployed and maintained multiple websites and applications for various clients.",
+          "Designed dynamic solutions for clients, including custom enterprise applications.",
           "Developed a basic PHP MVC framework for small sites and a robust multi-tenant .NET CMS for larger projects.",
-          "Met with clients to understand their challenges and collaborate on planning a solution to fit their needs.",
-          "Performed deep application security audits and designed fixes to meet HIPAA and federal regulations.",
-          "Key clients include Kroll, Atlanta Falcons, Atlanta United FC, Mercedes-Benz Stadium, UPMC, Florida Healthy Kids and InSeeGo."
+          "Architected and developed fixes to meet HIPAA and federal regulations.",
+          "Key clients include Atlanta Falcons, Kroll, InSeeGo, UPMC, Northwest Savings Bank, Industrial Scientific, Center for Safety & Environmental Management, Christ's Church of Greensburg and Our Mission House Publishing."
+        ]
+      },
+      {
+        "title": "Senior Director of Engineering / Architect & Lead Software Engineer",
+        "period": "June 2022 - January 2025",
+        "org": "RedSail",
+        "location": "Charlotte, NC",
+        "subtitle": "Emporos was acquired by RedSail in January 2025.",
+        "bullets": [
+          "Guided Emporos through engineering diligence for a successful acquisition.",
+          "Architected and developed payment software unlocking more than $1 million in potential ARR within the first year.",
+          "Achieved PCI DSS 4.0 attestation as a Level 1 service provider.",
+          "Integrated and certified multiple payment gateways, including Global Payments, FIS/Worldpay and Elavon.",
+          "Architected link-to-pay solutions that enabled user-owned device payments through a secure, PCI DSS 4.0-compliant interface.",
+          "Ensured HIPAA compliance, SOC 2 compliance and strict enforcement of safe logging and data storage practices for ePHI, PHI and PII.",
+          "Directed an engineering department consisting of six-member engineering squads across four scopes of work.",
+          "Presented engineering department updates to the board, company and executive team."
+        ]
+      },
+      {
+        "title": "Engineering Lead of the Loyalty and Offers Product Lines / Architect & Lead Software Engineer",
+        "period": "April 2018 - June 2022",
+        "org": "SessionM, A Mastercard Company",
+        "location": "Pittsburgh, PA",
+        "subtitle": "SessionM was acquired by Mastercard in October 2019.",
+        "bullets": [
+          "Led engineering for an award-winning loyalty and offers platform responsible for more than $59 million in ARR.",
+          "Led two teams responsible for core SessionM architecture after Mastercard acquired SessionM in October 2019.",
+          "Architected, developed, tested and deployed hierarchical data structure storage with less than 25ms response time and more than 150 TPS throughput.",
+          "Assumed ownership for multiple key domains that power the backbone of SessionM's infrastructure.",
+          "Architected multiple components involving security and performance to satisfy TPS requirements.",
+          "Acted as business and client-facing representative of engineering to reduce scope creep and keep feature work on track.",
+          "Performed code reviews on proposed solutions and provided thoughtful and constructive feedback."
         ]
       },
       {
         "title": "Lead Software Engineer",
-        "period": "2016 - 2018",
+        "period": "January 2016 - March 2018",
         "org": "Plus Consulting, Inc.",
-        "location": "Pittsburgh, PA",
+        "location": "Carnegie, PA",
         "bullets": [
-          "Directly hired and managed 15 US-based engineers and QA team members.",
-          "Worked with engineers to improve continuous education practices and initiatives for a career-focused culture.",
-          "Performed code reviews on proposed solutions and provided thoughtful and constructive feedback.",
-          "Executed DevOps tasks for the entire team and streamlined branch management.",
+          "Hired and led a 25-member engineering team across three scopes of work.",
+          "Architected, developed and deployed multiple major components for client applications.",
+          "Managed work streams for the team to avoid duplicate effort and deliver budget-friendly solutions.",
+          "Resolved conflicts between team members effectively and efficiently.",
+          "Mentored developers on new techniques and stressed the importance of clean, efficient code.",
           "Administered the technical phone screen and code test for all prospective engineers.",
-          "Committed hundreds of fixes and features to codebases that reduced reoccurring bugs in the application.",
-          "Created a strong working relationship with the clients by communicating clearly and explaining technical concepts effectively to non-technical individuals."
+          "Acted as liaison between the client and development team as a technical presence in meetings and presentations."
         ]
       },
       {
         "title": "Senior Software Engineer",
-        "period": "2015 - 2016",
+        "period": "May 2015 - January 2016",
         "org": "Black Box Network Services",
         "location": "Lawrence, PA",
         "bullets": [
-          "Vocal contributor in the design, development, testing and support of a new e-commerce site.",
-          "Design and implemented advanced real time search with another engineer using SOLR.",
+          "Active contributor in the design, development, testing and support of a new e-commerce site through security audits, performance audits and code reviews.",
+          "Designed and implemented advanced real-time search with another developer using Solr.",
           "Coordinated team efforts with JIRA and provided additional organization via business requirements gathering.",
           "Accelerated timeline of legacy features and debugging by providing in-depth analysis and completing groups of tickets in target areas.",
-          "Successfully completed legacy backlog months ahead of schedule with a clear and focused approach to development and planning."
+          "Successfully completed legacy backlog three months ahead of schedule with a clear and focused approach to development and planning.",
+          "Integrated Sitefinity CMS and AX with a new e-commerce application."
         ]
       },
       {
         "title": "Software Engineer",
-        "period": "2013 - 2015",
+        "period": "February 2013 - May 2015",
         "org": "ZAP Solutions, Inc.",
         "location": "Pittsburgh, PA",
         "bullets": [
-          "Quick learner with new technologies by researching and creating proof of concepts to test new features.",
-          "Created dozens of marketable features and incorporated them into the primary template to redistribute.",
-          "Worked with other departments to improve communication and cooperation to streamline development time.",
+          "Quick learner with new technologies by performing research and creating proof of concepts to test new features.",
+          "Created dozens of new marketable features and incorporated them into the primary template for the platform to redistribute.",
+          "Worked with other departments to improve communication and cooperation, which helped streamline development time.",
           "Professional and timely assistance to clients on conference calls and live debugging sessions.",
-          "Successfully bridged the gap between non-technical clients and the development team."
+          "Successfully bridged the gap between non-technical clients and the development team.",
+          "Deployed and maintained multiple instances of the AMP application within client environments remotely."
         ]
       },
       {
-        "title": "Full Stack Developer",
-        "period": "2012 - 2013",
+        "title": "Full Stack Software Engineer",
+        "period": "May 2012 - February 2013",
         "org": "Insight Marketing Solutions, Inc.",
-        "location": "Pittsburgh, PA",
+        "location": "Wexford, PA",
         "bullets": [
           "Provided clients with up-to-date technologies and techniques to reach their desired result quickly and effectively.",
-          "Promoted proactive design and development rather than reactive development.",
-          "Contributed heavily to the redesign and development of the SaaS wellness platform.",
+          "Promoted proactive design and development rather than waiting for clients to become unhappy with existing bugs.",
+          "Contributed heavily to the redesign and development of the eWell.co platform.",
           "Created entire websites from Photoshop files provided by clients.",
-          "Designed, developed, deployed and maintained multiple websites for various clients and in-house applications."
+          "Trained other employees on software engineering concepts.",
+          "Created a dozen websites and applications for assorted clients in quick turnaround."
         ]
       }
     ]
@@ -300,6 +346,9 @@
     }
   ],
   "testimonials": [
+    { "name": "Robert G.", "role": "Software Engineering Manager", "quote": "I worked with Pat for several years in a changing environment. We began as peers working at SessionM when it was still a startup working to make our products enterprise ready. Later I reported to him as an engineering lead and we were acquired by Mastercard. Pat showed a range of competencies over that time. We had limited resources, especially in the early days, but he focused on solutions to prioritize the most important tasks and get things done. He showed a combination of technical expertise and a skill at optimizing resources and balancing teams. While reporting to Pat my own role changed from a senior developer to an engineering manager. I credit him for being a good role model in leading teams. He demanded results but also protected his people and worked hard minimize external distractions that would block productivity. Pat directly shared knowledge and information helpful to the team as well as promoting cross sharing within the team itself. He went beyond purely pushing work and promoted a positive team atmosphere that helped increase overall productivity. The simplest compliment I can give is that in the future I would gladly work with or for Pat again as well as have him work for me if the situation arose." },
+    { "name": "Slavik L.", "role": "QA Engineer", "quote": "Pat is a true people leader, who while immensely talented, remains very approachable. He truly cares for his team, and will be the first one to get his hands dirty when needed because he really does lead by example. He in particularly took lead on research and documentation for a vital component in our product when he wasn't asked to, and that speaks volumes to the type of culture he brings to the workplace. A people leader; humble, empathetic, communicative, driven and extremely skilled." },
+    { "name": "Alex B.", "role": "Vice President of Global Implementation Services", "quote": "Pat is a leader in our organization and a pleasure to work with. I've enjoyed each time our paths crossed, both because it was sure that he would the solution or find the right person to help, but also because he contributes with positivity and a calm nature. I would happily work with Pat again any time." },
     { "name": "Derek J.", "role": "Chief Technology Officer", "quote": "Pat is not only an incredibly talented full stack software engineer, he is also an incredibly talented, and well respected, engineering manager and leader. He possesses great communication skills and wields them well; beyond the internal engineering teams (where he excels), he really shines working with organizations outside of engineering, where he is able to logically break down and clearly articular problems and solutions and set teams up for success. I have had the good fortune and pleasure of working with Pat for over 5 years and 2 acquisitions and have seen his rare talent and experience shaped (I should say forged) in a SaaS startup of high scale, high stakes, high pressure and high growth, working with the biggest brands on the planet, and know he would be valued very highly in any software enterprise." },
     { "name": "Tom R.", "role": "Director of Data Services & Engineering", "quote": "Patrick is not your typical engineer. The unsavvy among us may think his aversion to complexity means he is unskilled or uninformed. This cannot be further from the truth. Any engineer can take a complex problem and solve it with a complex solution. Patrick tries instead to solve the most complex problems with the simplest solutions, this is hard, combine his practical nature, and excellent communication skills and complete absence of ego makes him one of the most effective engineers and engineering leaders I have had the pleasure of working with." },
     { "name": "Joe R.", "role": "Principal Architect", "quote": "I worked with Pat for nearly two years on a Software Development contract. Pat was an excellent teammate and was the project lead. He was very easy to work with, a very knowledgeable developer and very responsive in clearing out any blockers for our team. Pat was extremely helpful in resolving any conflicts arising from client requests and resource allocation. He was willing to help with any of the concerns of anyone on the team. Good dude all around!! I would definitely work with him in any capacity again in the future and hope our paths will cross somewhere down the road." },

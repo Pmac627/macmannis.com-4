@@ -294,6 +294,13 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 30px;
 }
 
+.social-links a svg {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    vertical-align: -0.125em;
+}
+
     #hero .social-links a {
         font-size: 24px;
         display: inline-block;
@@ -404,6 +411,12 @@ section {
 /*--------------------------------------------------------------
 # Facts
 --------------------------------------------------------------*/
+.facts .facts-content {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 30px;
+}
+
 .facts .count-box {
     padding: 30px 30px 25px 30px;
     margin-top: 30px;
@@ -438,6 +451,12 @@ section {
         font-family: "Raleway", sans-serif;
         font-size: 14px;
     }
+
+@media (max-width: 1199px) {
+    .facts .facts-content {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+}
 
 /*--------------------------------------------------------------
 # Skills
@@ -512,6 +531,13 @@ section {
         display: inline-block;
         font-weight: 600;
         margin-bottom: 10px;
+    }
+
+    .resume .resume-item .resume-item-subtitle {
+        color: #728394;
+        font-size: 14px;
+        font-weight: 600;
+        margin: -4px 0 10px 0;
     }
 
     .resume .resume-item ul {
@@ -1120,27 +1146,27 @@ section {
 /*--------------------------------------------------------------
 # Scroll reveal (replaces AOS)
 --------------------------------------------------------------*/
-[data-aos] {
+.scroll-reveal-ready [data-aos] {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 
-    [data-aos].aos-animate {
+    .scroll-reveal-ready [data-aos].aos-animate {
         opacity: 1;
         transform: none;
     }
 
-    [data-aos="zoom-in"] {
+    .scroll-reveal-ready [data-aos="zoom-in"] {
         transform: scale(0.9);
     }
 
-        [data-aos="zoom-in"].aos-animate {
+        .scroll-reveal-ready [data-aos="zoom-in"].aos-animate {
             transform: none;
         }
 
 @media (prefers-reduced-motion: reduce) {
-    [data-aos] {
+    .scroll-reveal-ready [data-aos] {
         opacity: 1;
         transform: none;
         transition: none;
