@@ -10,13 +10,22 @@
     .skills-list {
         list-style-type: none;
         display: grid;
-        grid-template-columns: repeat(auto-fit,minmax(370px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 370px), 1fr));
+        gap: 20px 30px;
+        margin: 0;
+        padding: 0;
         width: 100%;
     }
 
     .skills-list-item {
         text-align: left;
-        padding: 0 15px 20px 15px;
+        min-width: 0;
+        padding: 0 15px;
+    }
+
+    .skills-list-item.progress {
+        margin: 0;
+        overflow: visible;
     }
 </style>
 <section id="about" class="about">
@@ -24,15 +33,15 @@
         <div class="section-title">
             <h2>About</h2>
             <p>
-                I am an experienced Team Lead and Software Engineer with a demonstrated history over more than @years years of professional experience.
+                I am an experienced Engineering Leader and Software Engineer with a demonstrated history over more than @years years of professional experience. You use my software every day! Contributed to significant value add leading to an acquisition, twice. Key software engineer and director on award winning mobile POS and payments solution. What should we make for award #3?
             </p>
         </div>
 
         <div class="row">
-            <div class="col-lg-3 text-center">
-                <img src="~/img/pat_2021.png" class="img-fluid" alt="">
+            <div class="col-lg-4 text-center">
+                <img src="~/img/pat.jpg" class="img-fluid" alt="">
             </div>
-            <div class="col-lg-9 pt-4 pt-lg-0 content">
+            <div class="col-lg-8 pt-4 pt-lg-0 content">
                 <h3>@content.About.Title</h3>
                 @foreach (var paragraph in content.About.Paragraphs)
                 {
@@ -60,8 +69,8 @@
             <p>Some numbers from my career to-date.</p>
         </div>
 
-        <div class="row facts-content">
-            <div class="col-lg-3 col-md-6">
+        <div class="facts-content">
+            <div class="fact-card">
                 <div class="count-box">
                     <i class="fas fa-users"></i>
                     <span id="counter-up-years" data-num="@years"></span>
@@ -70,7 +79,7 @@
             </div>
             @foreach (var fact in content.Facts)
             {
-                <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+                <div class="fact-card">
                     <div class="count-box">
                         <i class="@fact.Icon"></i>
                         <span id="counter-up-@fact.Label.Replace(" ", "").ToLowerInvariant()" data-num="@fact.Value" data-duration-ms="@(fact.DurationSeconds * 1000)"></span>
@@ -152,6 +161,10 @@
                         <h4>@experience.Title</h4>
                         <h5>@experience.Period</h5>
                         <p><em>@experience.Org, @experience.Location</em></p>
+                        @if (!string.IsNullOrWhiteSpace(experience.Subtitle))
+                        {
+                            <p class="resume-item-subtitle">@experience.Subtitle</p>
+                        }
                         <ul>
                             @foreach (var bullet in experience.Bullets)
                             {

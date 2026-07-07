@@ -261,6 +261,13 @@
             return;
         }
 
+        document.documentElement.classList.add("scroll-reveal-ready");
+
+        if (!("IntersectionObserver" in window)) {
+            elements.forEach(function (el) { el.classList.add("aos-animate"); });
+            return;
+        }
+
         var observer = new IntersectionObserver(function (entries, obs) {
             entries.forEach(function (entry) {
                 if (entry.isIntersecting) {
@@ -268,7 +275,7 @@
                     obs.unobserve(entry.target);
                 }
             });
-        }, { threshold: 0.15 });
+        }, { threshold: 0, rootMargin: "0px 0px -10% 0px" });
 
         elements.forEach(function (el) { observer.observe(el); });
     }
